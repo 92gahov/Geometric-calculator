@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Geometry">
+    <meta name="keywords"
+        content="face, circumference, circle, calculator, triangle, square, rectangle, rhombus, parallelogram, trapezoid, right-angled triangle">
+    <meta name="author" content="Georgi Gahov">
+    <link rel="stylesheet" href="CSS/Home_page.css">
+    <title>Home page</title>
+</head>
+
+<body>
+    <main>
+        <h1>Geometric calculator</h1>
+        <div class="container">
+            <div class="circle-main">
+                <div class="circle-img"></div>
+                <h2 onclick="circle()">Circle</h2>
+            </div>
+            <div class="triangle-main">
+                <div class="triangle-img"></div>
+                <h2 onclick="triangle()">Triangle</h2>
+            </div>
+            <div class="right-angled-triangle-main">
+                <div class="right-angled-triangle-img"></div>
+                <h2 onclick="triangle_2()">Right-angled triangle</h2>
+            </div>
+            <div class="square-main">
+                <div class="square-img"></div>
+                <h2 onclick="square()">Square</h2>
+            </div>
+            <div class="rectangle-main">
+                <div class="rectangle-img"></div>
+                <h2 onclick="rectangle()">Rectangle</h2>
+            </div>
+            <div class="rhombus-main">
+                <div class="rhombus-img"></div>
+                <h2 onclick="rhombus()">Rhombus</h2>
+            </div>
+            <div class="comparator-main">
+                <div class="comparator-img"></div>
+                <h2 onclick="paralleogram()">Parallelogram</h2>
+            </div>
+            <div class="trapezoid-main">
+                <div class="trapezoid-img"></div>
+                <h2 onclick="trapezoid()">Trapezoid</h2>
+            </div>
+        </div>
+        <div class="contaier-second">
+            <div class="pentagon-main">
+                <div class="pentagon-img">
+                    <img src="Img/kindpng_4754306.png" width="160" height="160">
+                </div>
+                <h2 onclick="pentagon()">Pentagon</h2>
+            </div>
+            <div class="hexagon-main">
+                <div class="hexagon-img">
+                    <img src="Img/pngwing.com.png" width="160" height="160">
+                </div>
+                <h2 onclick="hexagon()">Hexagon</h2>
+            </div>
+            <div class="polygon-main">
+                <div class="polygon-img">
+                    <img src="Img/star-polygon-geometry-shape-b52aa3ceccbbffa303f7c7913c6c030d.png" width="160"
+                        height="160">
+                </div>
+                <h2 onclick="polygon()">Polygon</h2>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="desc">
+                <h3>Geometric calculator</h3>
+            </div>
+            <div class="author">
+                <p>Created By <a href="#">G. Gahov</a>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function circle() {
+            location.assign("Circle.html");
+        };
+        function triangle() {
+            location.assign("Triangle.html");
+        };
+        function triangle_2() {
+            location.assign("Right-angled_triangle.html");
+        };
+        function square() {
+            location.assign("Square.html");
+        };
+        function rectangle() {
+            location.assign("Rectangle.html");
+        };
+        function rhombus() {
+            location.assign("Rhombus.html");
+        };
+        function paralleogram() {
+            location.assign("Parallelogram.html");
+        };
+        function trapezoid() {
+            location.assign("Trapezoid.html");
+        };
+        function pentagon() {
+            location.assign("Pentagon.html");
+        };
+        function hexagon() {
+            location.assign("Hexagon.html");
+        };
+        function polygon() {
+            location.assign("Polygon.html");
+        };
+    </script>
+</body>
+
+</html>

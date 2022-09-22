@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Geometry">
+    <meta name="keywords"
+        content="face, circumference, circle, calculator, triangle, square, rectangle, rhombus, parallelogram, trapezoid, right-angled triangle">
+    <meta name="author" content="Georgi Gahov">
+    <link rel="stylesheet" href="CSS/Triangle.css">
+    <title>Triangle</title>
+</head>
+
+<body>
+    <main>
+        <div class="figure-main">
+            <div class="head">
+                <h1>Triangle</h1>
+            </div>
+            <div class="fig_desc">
+                <div class="figure">
+                    <p><i>a</i></p>
+                    <p><i>b</i></p>
+                    <p><i>c</i></p>
+                    <p><i>h<sub>a</sub></i></p>
+                    <p><i>&#945;</i></p>
+                    <p><i>&#946;</i></p>
+                    <p><i>&#947;</i></p>
+                    <div class="ha"></div>
+                </div>
+                <div class="description-main">
+                    <p>P - circumference</p>
+                    <p>S - face</p>
+                    <p><i>a, b, c</i> - sides</p>
+                    <p><i>h<sub>a</sub></i> - height of side <i>a</i></p>
+                </div>
+            </div>
+            <form>
+                <div class="calculator-main">
+                    <div class="calculator">
+                        <h2>Calculator</h2>
+                        <p id="err"></p>
+                        <div class="values-main">
+                            <div>
+                                <p><i>a</i> = <input type="number" id="side_a" min="0"><sup
+                                        style="color: red; margin-left: 6px; font-size: 20px;">*</sup></p>
+                                <p><i>b</i> = <input type="number" id="side_b" min="0"><sup
+                                        style="color: red; margin-left: 6px; font-size: 20px;">*</sup></p>
+                            </div>
+                            <div>
+                                <p><i>c</i> = <input type="number" id="side_c" min="0"><sup
+                                        style="color: red; margin-left: 6px; font-size: 20px;">*</sup></p>
+                                <p><i>h<sub>a</sub></i> = <input type="number" id="ha" min="0"><sup
+                                        style="color: red; margin-left: 6px; font-size: 20px;">*</sup></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="round">
+                        <p>Rounded up <input type="number" id="round" value="2" min="1"> sign after the decimal
+                            point.
+                        </p>
+                        <input type="button" value="Calculate" onclick="calculate()">
+                        <input type="button" value="Reset" id="reset">
+                    </div>
+                </div>
+                <div class="result-main">
+                    <p>Face S = <input type="number" id="face_result" readonly></p>
+                    <p>Circumference P = <input type="number" id="circumference_result" readonly></p>
+                </div>
+            </form>
+        </div>
+        <div class="links-main">
+            <div class="heading">
+                <h3>FACE AND CIRCUMFERENCE </h3>
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="Home_page.html">Home</a></li>
+                    <li><a href="Circle.html">Circle</a></li>
+                    <li><a class="active" href="Triangle.html">Triangle</a></li>
+                    <li><a href="Right-angled_triangle.html">Right-angled triangle</a></li>
+                    <li><a href="Square.html">Square</a></li>
+                    <li><a href="Rectangle.html">Rectangle</a></li>
+                    <li><a href="Rhombus.html">Rhombus</a></li>
+                    <li><a href="Parallelogram.html">Parallelogram</a></li>
+                    <li><a href="Trapezoid.html">Trapezoid</a></li>
+                    <li><a href="Pentagon.html">Pentagon</a></li>
+                    <li><a href="Hexagon.html">Hexagon</a></li>
+                    <li><a href="Polygon.html">Polygon</a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <div class="footer">
+        <div class="desc">
+            <h3>Geometric calculator</h3>
+        </div>
+        <div class="author">
+            <p>Created By <a href="#">G. Gahov</a>
+        </div>
+    </div>
+
+    <script src="JS/Triangle.js"></script>
+</body>
+
+</html>
